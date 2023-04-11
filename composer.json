@@ -1,0 +1,40 @@
+{
+    "name": "vioms/laravel-cities",
+    "description": "Laravel Cities is a bundle for Laravel, providing cities for countries",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "cities"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vioms\\Cities\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sven",
+            "email": "sven@vioms.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=8.0.0",
+        "vioms/laravel-countries" : "*",
+        "laravel/framework": ">=8.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vioms\\Cities\\ServiceProvider"
+            ],
+            "aliases": {
+                "Cities": "Vioms\\Cities\\CitiesFacade"
+            }
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "7.x-dev"
+    }
+}
