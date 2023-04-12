@@ -4,17 +4,20 @@
 [![Latest Stable Version](https://poser.pugx.org/vioms/laravel-cities/v/stable.svg)](https://packagist.org/packages/vioms/laravel-cities)
 [![Latest Unstable Version](https://poser.pugx.org/vioms/laravel-cities/v/unstable.svg)](https://packagist.org/packages/vioms/laravel-cities)
 
-Laravel Countries is a bundle for Laravel, providing Almost ISO 3166_2, 3166_3, currency, Capital and more for all cities.
+Laravel Cities is a bundle for Laravel for all cities.
 
 This package requires:
 * vioms/laravel-countries
 
+## Notice
+The population of this package might take a few minute to a few hours depending on your installation.
+The import file is 1.5 GB 
 
 ## Installation
 
 Runs `composer require vioms/laravel-cities` to install the package
 
-Run `composer update` to pull down the latest version of Country List.
+Run `composer update` to pull down the latest version of Cities.
 
 ## Model
 
