@@ -22,8 +22,8 @@ return new class extends Migration {
             $table->string('name', 200)->index();
             $table->string('ascii_name', 200)->nullable();
             $table->json('alternate_names')->nullable();
-            $table->float('longitude', 10, 8)->nullable();
-            $table->float('latitude', 10, 8)->nullable();
+            $table->float('longitude', 16, 8)->nullable();
+            $table->float('latitude', 16, 8)->nullable();
             //feature classes:
             //A: country, state, region,...
             //H: stream, lake, ...
