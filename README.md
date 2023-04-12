@@ -11,7 +11,7 @@ This package requires:
 
 ## Notice
 The population of this package might take a few minute to a few hours depending on your installation.
-The import file is 1.5 GB 
+The import file is 1.5 GB about 2.2 million records
 
 ## Installation
 
